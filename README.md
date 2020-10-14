@@ -2,6 +2,8 @@
 
 RaspberryPi based WiFi controller backend for controlling a QuietCool Wholehouse fan.
 
+* IMPORTANT * This is an unsecured API endpoint to your fan, make sure that the network your RPi is connecting is secured. None of the APIs require any sort of authentication or authorization. Feel free to change it using [SpringBoot configuration](https://www.baeldung.com/spring-security-authentication-and-registration) if you want!
+
 # Background
 
 In northern California a Wholehouse fan is very useful. In the evening temperatures drop significantly and it's an efficient and cheap way to cool down the house for the night or pre-cool the whouse in the morning. My Quietcool wholehouse fan came with a timer switch and a speed selector / off switch. In order to make it smart and tie it into my Smartthings based home automation system. I created a RaspberryPi based solution. Here's how it looked before and after:
