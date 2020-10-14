@@ -2,7 +2,7 @@
 
 RaspberryPi based WiFi controller backend for controlling a QuietCool Wholehouse fan.
 
-* IMPORTANT * This is an unsecured API endpoint to your fan, make sure that the network your RPi is connecting is secured. None of the APIs require any sort of authentication or authorization. Feel free to change it using [SpringBoot configuration](https://www.baeldung.com/spring-security-authentication-and-registration) if you want!
+**IMPORTANT** This is an unsecured API endpoint to your fan, make sure that the network your RPi is connecting is secured. None of the APIs require any sort of authentication or authorization. Feel free to change it using [SpringBoot configuration](https://www.baeldung.com/spring-security-authentication-and-registration) if you want!
 
 # Background
 
