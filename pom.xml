@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.cl0udninja</groupId>
-	<artifactId>raspberrypi.touchscreen</artifactId>
+	<artifactId>rpi.quietcool</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>raspberrypi.touchscreen</name>
+	<name>rpi.quietcool</name>
 	<description>QuietCool Whole House Fan Control Spring Boot Application</description>
 
 	<parent>
