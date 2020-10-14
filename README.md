@@ -39,9 +39,9 @@ You'll need:
 
     `sudo apt-get install maven`
 
-After this it's just `java -jar target/raspberrypi.ledcontroller-0.0.1-SNAPSHOT.jar`. 
+After this it's just `java -jar target/rpi.quietcool-0.0.1-SNAPSHOT.jar`. 
 
-If you want to make it start up when the Pi boots up, then `sudo nano /etc/rc.local` and add `java -jar target/raspberrypi.ledcontroller-0.0.1-SNAPSHOT.jar &` above the last line (which is `exit 0`).
+If you want to make it start up when the Pi boots up, then `sudo nano /etc/rc.local` and add `java -jar target/rpi.quietcool-0.0.1-SNAPSHOT.jar &` above the last line (which is `exit 0`).
 
 If you're getting permission errors accessing the GPIO on the RPi you'll have to run it with `sudo`
 
